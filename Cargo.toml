@@ -1,0 +1,19 @@
+[package]
+name = "rustyluna"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "src/server/main.rs"
+
+[[bin]]
+name = "client"
+path = "src/client/main.rs"
+
+
+[dependencies]
+telnet = "0.2.1"
+serialport = "4.2.0"
+stick = "0.12.4"
+regex = "1.5.6"
