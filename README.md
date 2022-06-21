@@ -30,7 +30,7 @@ Modules for additional types of input (gamepads, custom, etc) and sensors are no
 rustc ❤️
 
 
-libs via cargo: telnet, serialport, stick, regex
+libs via cargo: tarpc, serialport, stick, regex
 
 ### Installing
 

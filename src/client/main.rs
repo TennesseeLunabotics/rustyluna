@@ -19,7 +19,7 @@ fn main() {
     loop {
         match ask_to_connect(&mut address) {
             None => {
-                println!("{}", "Word. No extra available client modules in this junt. Closing.".to_string());
+                println!("{}", "No extra available client modules in this junt. Closing.".to_string());
                 break;
             },
             Some(x) => {
@@ -36,7 +36,8 @@ fn main() {
 //connect
 //send stick codes
 //ask for commands
-//send command codes
+//command code sender
+
 }
 
 fn ask_to_connect(addy: &mut String) -> Option<&String>{
