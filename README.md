@@ -10,20 +10,35 @@ Most other robotics competitions such as Vex or FRC contain properitary hardware
 
 ## Getting Started
 
+### Intended Hardware
+
+Currently the stack is made to run on a combination of:
+
+
+an arbitrary PC (client), 
+
+Jetson Nano Developer Kit (server),
+
+Arduino (serial).
+
+
+Modules for additional types of input (gamepads, custom, etc) and sensors are not currently intended to be included in the base stack. These will have to be added or adapated into the codebase.
+
+
 ### Dependencies
 
-rustc
+rustc ❤️
 
 
-telnet
-serialport
-stick
-regex
+libs via cargo: telnet, serialport, stick, regex
 
 ### Installing
 
 Install rust.
+
 Use cargo for libraries.
+
+
 
 ## Authors
 
