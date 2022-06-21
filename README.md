@@ -38,6 +38,10 @@ Install rust.
 
 Use cargo for libraries.
 
+Compile and deploy server binary for Jetson Nano.
+
+Compilse and deploy client binary for PC.
+
 
 
 ## Authors
