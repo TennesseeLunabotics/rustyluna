@@ -22,7 +22,7 @@ Jetson Nano Developer Kit (server),
 Arduino (serial).
 
 
-Modules for additional types of input (gamepads, custom, etc) and sensors are not currently intended to be included in the base stack. These will have to be added or adapated into the codebase.
+Modules for additional types of input (gamepads, custom, etc) and sensors are not currently intended to be included in the base stack. These will have to be added or adapted into the codebase.
 
 
 ### Dependencies
