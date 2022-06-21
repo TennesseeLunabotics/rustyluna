@@ -1,6 +1,7 @@
 # rustyluna
 
-The Tennessee Lunabotics Open Robotics Stack written in Rust.
+The Tennessee Lunabotics Open Robotics Stack written in Rust. (TLORS).
+
 
 ## Description
 
