@@ -1,8 +1,7 @@
 use std::env;
 use std::fs;
 use std::io;
-use std::net::{IpAddr, Ipv4Addr, Ipv6Addr};
-use telnet::{Telnet, Event};
+use std::net::IpAddr;
 
 const VERSION: &str = env!("CARGO_PKG_VERSION");
 
@@ -27,8 +26,6 @@ fn main() {
                 
                 let server = address.parse::<IpAddr>().unwrap();
 
-                let mut connection = Telnet::connect((server, 23), 256)
-                .expect("Couldn't connect to the server...");
             },
         }
     }
