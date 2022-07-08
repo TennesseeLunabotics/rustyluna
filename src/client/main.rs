@@ -31,7 +31,9 @@ fn main() {
     }
 
 //connect
-//send stick codes
+//loop keyboard input on a tty-like
+//if command is for drive, initiate drive interface
+//if command is other, execute command and return to tty-like
 //ask for commands
 //command code sender
 

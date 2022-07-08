@@ -1,11 +1,11 @@
 [[brushless]]
 name = "leftDrive"
-port = 3
+pin = 3
 
 [[brushless]]
 name = "rightDrive"
-port = 4
+pin = 4
 
 [[stepper]]
 name = "mainStepper"
-port = 5
+pin = 5
